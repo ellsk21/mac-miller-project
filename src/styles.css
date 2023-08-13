@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color:#D8BDCD;
+    background-color:#EEBACC;
 }
 
 
@@ -12,6 +12,7 @@ body {
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 64px;
 }
 section {
     max-width: 1200px;
@@ -67,7 +68,7 @@ header a {
     color:black;
     letter-spacing: 3px;
     text-decoration: none;
-    background: #D8BDCD;
+    background: #EEBACC;
     text-transform: uppercase;
     padding: 16px 32px;
     margin-top: 32px;
@@ -93,7 +94,7 @@ footer p {
     font-size: 16px;
     line-height: 24px;
     opacity: 0.7;
-    margin-right: 20px;
+
 
 }
 footer li {
@@ -106,7 +107,7 @@ footer ul {
     padding: 0;
 }
 footer a{
-    color:#D8BDCD ;
+    color:#EEBACC;
     opacity: 0.7 ;
 }
 @media(max-width: 800px)
