@@ -23,7 +23,7 @@ body {
    grid-template-columns: 1fr 1fr 1fr; 
 }
 .img-responsive {
-    max-width: 500px;
+    width: 100%;
     margin: 40px;
 }
 .grid-3
@@ -208,7 +208,9 @@ footer a{
 }
 @media(max-width: 900px)
 {
- 
+ header {
+    padding: 5px 0;
+ }
  h1 {
     font-size: 48px;
  }
@@ -225,7 +227,7 @@ footer a{
 }
 .img-responsive {
     display: block;
-    width: 100%;
+    width: 450px;
 }
 section {
     padding: 30px 30px;
