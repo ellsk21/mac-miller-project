@@ -206,11 +206,9 @@ footer a{
     padding: 16px;
     text-decoration: none;
 }
-@media(max-width: 700px)
+@media(max-width: 900px)
 {
-    header {
-        padding: 60px 0;
- }
+ 
  h1 {
     font-size: 48px;
  }
@@ -227,7 +225,7 @@ footer a{
 }
 .img-responsive {
     display: block;
-    max-width: 450px;
+    width: 100%;
 }
 section {
     padding: 30px 30px;
